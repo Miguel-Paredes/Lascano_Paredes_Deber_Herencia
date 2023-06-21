@@ -8,7 +8,6 @@ public class menuPrincipal extends felinos{
         System.out.printf(opcion);
         //Menu principal---------------------------------------------------------------------------------------
         System.out.println("\n---------------Menu Figuras------------------");
-        System.out.println("Calculo del area y perimetro de las siguientes figuras: ");
         System.out.println("1. Caracal.");
         System.out.println("2. Gato.");
         System.out.println("3. Lince. ");
