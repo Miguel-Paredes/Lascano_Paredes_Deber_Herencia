@@ -25,7 +25,7 @@ public class caracal extends felinos{
     public void setPeso(float peso) {
         this.peso = peso;
     }
-    public void imprimir(){
+    public void imprimir_caracal(){
         System.out.println("El nombre del felino es: ");
         System.out.println(nombre_felino);
         System.out.println("El tipo de felino es: ");
