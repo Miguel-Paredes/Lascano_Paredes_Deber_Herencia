@@ -28,6 +28,13 @@ public class caracal extends felinos{
     public void imprimir(){
         System.out.println("El nombre del felino es: ");
         System.out.println(nombre_felino);
-        System.out.println();
+        System.out.println("El tipo de felino es: ");
+        System.out.println(tipo);
+        System.out.println("La estatura del felino es: ");
+        System.out.println(estatura);
+        System.out.println("El felino vive en: ");
+        System.out.println(habitat);
+        System.out.println("El felino pesa: ");
+        System.out.println(peso);
     }
 }
