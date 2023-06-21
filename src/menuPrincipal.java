@@ -15,23 +15,31 @@ public class menuPrincipal extends felinos{
         System.out.println("2. Gato.");
         System.out.println("3. Lince. ");
         System.out.println("4. Puma.");
-        System.out.println("5. Felinos.");
         System.out.print("Seleccione una de las opciones del menu: ");
         int opt = entrada.nextInt();
 
         switch (opt){
             case 1 ->{
                 System.out.println("\nCaracal");
-                System.out.println(" ");}
+                System.out.println(" ");
+                celeste.imprimir_caracal();}
+
+
             case 2 ->{
                 System.out.println("\nGato");
-                System.out.println(" ");}
+                System.out.println(" ");
+                wilson.imprimir_gato();
+
+            }
             case 3 ->{
                 System.out.println("\nLince");
-                System.out.println(" ");}
+                System.out.println(" ");
+            garfield.imprimir_linces();}
             case 4 ->{
-                System.out.println("\n Felinos");
-                System.out.println(" ");}
+                System.out.println("\n Puma");
+                System.out.println(" ");
+                kira.imprimir_pumas();}
+
         }
     }
 }
