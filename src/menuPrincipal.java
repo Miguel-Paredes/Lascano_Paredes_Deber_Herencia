@@ -6,7 +6,7 @@ public class menuPrincipal extends felinos{
         String opcion;
         opcion= entrada.nextLine();
         System.out.printf(opcion);
-        //Menu principal---------------------------------------------------------------------------------------
+        //Menu principal----------------------------------------------------------------------------------------
         System.out.println("\n---------------Menu Figuras------------------");
         System.out.println("1. Caracal.");
         System.out.println("2. Gato.");
