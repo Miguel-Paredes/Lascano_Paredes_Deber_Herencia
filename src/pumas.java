@@ -5,8 +5,8 @@ public class pumas extends felinos{
     public pumas(){
         super();}
 
-    public pumas(String nombre_felino, int tiempo_de_vida, String tipo, float estatura, String habitat, String dieta) {
-        super(nombre_felino, tiempo_de_vida, tipo, estatura);
+    public pumas(String nombre_felino, String tipo, float estatura, String habitat, String dieta) {
+        super(nombre_felino, tipo, estatura);
         this.habitat = habitat;
         this.dieta = dieta;}
 

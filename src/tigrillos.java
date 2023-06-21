@@ -5,8 +5,8 @@ public class tigrillos extends felinos{
     public tigrillos(){
         super();}
 
-    public tigrillos(String nombre_felino, int tiempo_de_vida, String tipo, float estatura, String alimentacion, String habitat) {
-        super(nombre_felino, tiempo_de_vida, tipo, estatura);
+    public tigrillos(String nombre_felino, String tipo, float estatura, String alimentacion, String habitat) {
+        super(nombre_felino, tipo, estatura);
         this.alimentacion = alimentacion;
         this.habitat = habitat;}
 
