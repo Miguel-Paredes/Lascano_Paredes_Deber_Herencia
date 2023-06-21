@@ -37,8 +37,5 @@ public class gato extends felinos{
         System.out.println(color);
         System.out.println("Su alimentación es : ");
         System.out.println(alimentacion);
-
-
-
-
     }
+}
