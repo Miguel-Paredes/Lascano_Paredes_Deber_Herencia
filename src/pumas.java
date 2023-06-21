@@ -25,4 +25,16 @@ public class pumas extends felinos{
     public void setDieta(String dieta) {
         this.dieta = dieta;
     }
+    public void imprimir_pumas(){
+        System.out.println("El nombre del felino es: ");
+        System.out.println(nombre_felino);
+        System.out.println("El tipo de felino es: ");
+        System.out.println(tipo);
+        System.out.println("La estatura del felino es: ");
+        System.out.println(estatura);
+        System.out.println("El felino habita en: ");
+        System.out.println(habitat);
+        System.out.println("La dieta del felino es: ");
+        System.out.println(dieta);
+    }
 }

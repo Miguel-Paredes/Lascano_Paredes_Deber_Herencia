@@ -25,4 +25,16 @@ public class tigrillos extends felinos{
     public void setHabitat(String habitat) {
         this.habitat = habitat;
     }
+    public void imprimir_tigrillos(){
+        System.out.println("El nombre del felino es: ");
+        System.out.println(nombre_felino);
+        System.out.println("El tipo de felino es: ");
+        System.out.println(tipo);
+        System.out.println("La estatura del felino es: ");
+        System.out.println(estatura);
+        System.out.println("El felino habita en: ");
+        System.out.println(habitat);
+        System.out.println("La alimentacion del felino es: ");
+        System.out.println(alimentacion);
+    }
 }
