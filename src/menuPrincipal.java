@@ -3,9 +3,7 @@ public class menuPrincipal extends felinos{
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         gato wilson = new gato();
-        String opcion;
-        opcion= entrada.nextLine();
-        System.out.printf(opcion);
+
         //Menu principal----------------------------------------------------------------------------------------
         System.out.println("\n---------------Menu Figuras------------------");
         System.out.println("1. Caracal.");
