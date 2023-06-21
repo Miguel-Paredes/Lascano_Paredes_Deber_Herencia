@@ -5,8 +5,8 @@ public class gato extends felinos{
     public gato() {
         super();}
 
-    public gato(String nombre_felino, int tiempo_de_vida, String tipo, float estatura, String color, String alimentacion) {
-        super(nombre_felino, tiempo_de_vida, tipo, estatura);
+    public gato(String nombre_felino, String tipo, float estatura, String color, String alimentacion) {
+        super(nombre_felino, tipo, estatura);
         this.color = color;
         this.alimentacion = alimentacion;}
 
