@@ -9,7 +9,7 @@ public class menuPrincipal extends felinos{
         pumas kira = new pumas();
         caracal celeste = new caracal();
 
-        //Menu principal------------------------------------------------------------------------------------------
+        //Menu principal-------------------------------------------------------------------------------------------
         System.out.println("\n---------------Menu Figuras------------------");
         System.out.println("1. Caracal.");
         System.out.println("2. Gato.");
