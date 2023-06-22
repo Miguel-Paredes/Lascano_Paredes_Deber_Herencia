@@ -4,10 +4,10 @@ public class menuPrincipal extends felinos{
  // creando objetos
         Scanner entrada = new Scanner(System.in);
         gato wilson = new gato("Wilson","Gato domestico", 40, "naranja", "atun");
-        tigrillos jupiter = new tigrillos();
-        linces garfield = new linces();
-        pumas kira = new pumas();
-        caracal celeste = new caracal();
+        tigrillos jupiter = new tigrillos("Jupiter","gato salvaje", 40, "carnivoro", "sabana");
+        linces garfield = new linces("Garfield","gato salvaje",35,30,25);
+        pumas kira = new pumas("kira", "salvaje",70,"jungla","carnivoro");
+        caracal celeste = new caracal("celeste", "salvaje",70,"sabana",30);
 
         //Menu principal-------------------------------------------------------------------------------------------
         System.out.println("\n---------------Menu Figuras------------------");

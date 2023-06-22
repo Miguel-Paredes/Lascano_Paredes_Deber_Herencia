@@ -1,7 +1,7 @@
 public class gato extends felinos{
     String color;
     String alimentacion;
-//
+
     public gato() {
         super();}
 
@@ -11,20 +11,16 @@ public class gato extends felinos{
         this.alimentacion = alimentacion;}
 
     public String getColor() {
-        return color;
-    }
+        return color;}
 
     public void setColor(String color) {
-        this.color = color;
-    }
+        this.color = color;}
 
     public String getAlimentacion() {
-        return alimentacion;
-    }
+        return alimentacion;}
 
     public void setAlimentacion(String alimentacion) {
-        this.alimentacion = alimentacion;
-    }
+        this.alimentacion = alimentacion;}
 
     public void imprimir_gato(){
         System.out.println("El nombre del felino es: ");
