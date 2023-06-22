@@ -3,7 +3,7 @@ public class menuPrincipal extends felinos{
     public static void main(String[] args) {
  // creando objetos
         Scanner entrada = new Scanner(System.in);
-        gato wilson = new gato();
+        gato wilson = new gato("Wilson","Gato domestico", 40, "naranja", "atun");
         tigrillos jupiter = new tigrillos();
         linces garfield = new linces();
         pumas kira = new pumas();
