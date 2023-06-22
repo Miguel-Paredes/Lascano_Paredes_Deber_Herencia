@@ -1,6 +1,4 @@
 public class linces extends felinos{
-    float largo_cola;
-    float largo_patas;
 
     public linces(){
         super();}
@@ -17,6 +15,12 @@ public class linces extends felinos{
     public void setLargo_patas(float largo_patas) {
         this.largo_patas = largo_patas;
     }
+
+    String tipo = "linces";
+    float estatura = 50;
+    float largo_cola = 35;
+    float largo_patas = 20;
+
     public void imprimir_linces(){
         System.out.println("El nombre del felino es: ");
         System.out.println(nombre_felino);

@@ -1,6 +1,5 @@
 public class caracal extends felinos{
     String habitat;
-    float peso;
 
     public caracal(){
         super();}
@@ -25,6 +24,11 @@ public class caracal extends felinos{
     public void setPeso(float peso) {
         this.peso = peso;
     }
+    String tipo ="Caracal";
+    float estatura = 60;
+    String habitad  = "Sabana";
+    float peso = 10;
+
     public void imprimir_caracal(){
         System.out.println("El nombre del felino es: ");
         System.out.println(nombre_felino);

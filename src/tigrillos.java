@@ -1,5 +1,5 @@
 public class tigrillos extends felinos{
-    String alimentacion;
+
     String habitat;
 
     public tigrillos(){
@@ -25,6 +25,13 @@ public class tigrillos extends felinos{
     public void setHabitat(String habitat) {
         this.habitat = habitat;
     }
+
+    String tipo = "Tigrillo";
+    float estatura = 50;
+    String habitad = "Selva";
+    String alimentacion = "Carnivoros";
+
+
 
     public void imprimir_tigrillos(){
         System.out.println("El nombre del tigrillo: ");

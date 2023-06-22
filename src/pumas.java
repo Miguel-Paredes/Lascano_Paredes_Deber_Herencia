@@ -1,6 +1,5 @@
 public class pumas extends felinos{
     String habitat;
-    String dieta;
 
     public pumas(){
         super();}
@@ -25,6 +24,12 @@ public class pumas extends felinos{
     public void setDieta(String dieta) {
         this.dieta = dieta;
     }
+
+    String tipo = "pumas";
+    float estatura = 60;
+    String habitad = "Jungla";
+    String dieta = "Carnivoro";
+
     //creamos funciones
     public void imprimir_pumas(){
         System.out.println("El nombre del felino es: ");
