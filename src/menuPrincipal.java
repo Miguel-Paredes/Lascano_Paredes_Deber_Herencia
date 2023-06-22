@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class menuPrincipal extends felinos{
+public class menuPrincipal{
     public static void main(String[] args) {
  // creando objetos
         Scanner entrada = new Scanner(System.in);
