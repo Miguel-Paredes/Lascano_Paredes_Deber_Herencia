@@ -36,6 +36,4 @@ public class pumas extends felinos{
         System.out.println("El felino habita en: ");
         System.out.println(habitat);
         System.out.println("La dieta del felino es: ");
-        System.out.println(dieta);
-    }
-}
+        System.out.println(dieta);}}

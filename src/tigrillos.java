@@ -36,6 +36,4 @@ public class tigrillos extends felinos{
         System.out.println("Su habitad es: ");
         System.out.println(habitat);
         System.out.println("Su alimentación es : ");
-        System.out.println(alimentacion);
-
-}}
+        System.out.println(alimentacion);}}

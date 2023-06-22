@@ -27,6 +27,4 @@ public class linces extends felinos{
         System.out.println("El largo de la cola del felino es: ");
         System.out.println(largo_cola);
         System.out.println("El largo de las patas del felino es: ");
-        System.out.println(largo_patas);
-    }
-}
+        System.out.println(largo_patas);}}

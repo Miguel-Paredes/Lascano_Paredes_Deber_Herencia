@@ -35,6 +35,4 @@ public class caracal extends felinos{
         System.out.println("El felino vive en: ");
         System.out.println(habitat);
         System.out.println("El felino pesa: ");
-        System.out.println(peso);
-    }
-}
+        System.out.println(peso);}}
